@@ -2,7 +2,8 @@
 
 angular.module('potdApp', [
   'ngResource',
-  'ngRoute'
+  'ngRoute',
+  'BeerDB'
 ])
   .config(function ($routeProvider) {
     $routeProvider
