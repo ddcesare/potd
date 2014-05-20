@@ -11,5 +11,9 @@ angular.module('potdApp')
     ];
 
     $scope.beer = Beer.get({id: 'random'});
+    $scope.reset = function() {
+      $scope.beer = Beer.reset({id: 'random'});
+      console.log($scope.beer);
+    };
 
   });
