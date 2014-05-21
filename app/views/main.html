@@ -1,2 +1,18 @@
 <h1>{{beer.data.name}}</h1>
+
+<dl>
+  <dt>Style</dt>
+  <dd>{{beer.data.style.name}}</dd>
+  <dt>ABV</dt>
+  <dd>{{beer.data.abv}} %</dd>
+  <dt>IBU max</dt>
+  <dd>{{beer.data.style.ibuMax}} %</dd>
+  <dt>IBU min</dt>
+  <dd>{{beer.data.style.ibuMin}} %</dd>
+</dl>
+
+<img src="{{beer.data.labels.large}}" alt="{{beer.data.name}}" title="{{beer.data.name}}" />
+
+<p>{{beer.data.description}}</p>
+
 <button ng-click="reset()">reset, for the love of yoda!</button>
