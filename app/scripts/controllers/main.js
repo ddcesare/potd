@@ -16,4 +16,7 @@ angular.module('potdApp')
       console.log($scope.beer);
     };
 
+
+    console.log($scope.beer);
+
   });

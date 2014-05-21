@@ -6,13 +6,14 @@
   <dt>ABV</dt>
   <dd>{{beer.data.abv}} %</dd>
   <dt>IBU max</dt>
-  <dd>{{beer.data.style.ibuMax}} %</dd>
+  <dd>{{beer.data.style.ibuMax}}</dd>
   <dt>IBU min</dt>
-  <dd>{{beer.data.style.ibuMin}} %</dd>
+  <dd>{{beer.data.style.ibuMin}}</dd>
 </dl>
 
-<img src="{{beer.data.labels.large}}" alt="{{beer.data.name}}" title="{{beer.data.name}}" />
+<img ng-show="beer.data.labels.large" src="{{beer.data.labels.large}}" alt="{{beer.data.name}}" title="{{beer.data.name}}" />
+<img ng-show="!beer.data.labels.large" src="images/duck.jpg" alt="Lovely Pints!" title="Lovely Pints!" />
 
 <p>{{beer.data.description}}</p>
 
-<button ng-click="reset()">reset, for the love of yoda!</button>
+<button ng-click="reset()">Nah, give me another one!</button>
