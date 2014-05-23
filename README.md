@@ -1,29 +1,26 @@
-potd
-====
+# POTD
+
 
 Pint Of The Day: Simple app to randomly suggest what pint you should go for today :) Cheers!
 
-Install Dev enviroment (OSX)
-======================
+## Install Dev enviroment (OSX)
 
-Install Node
-------------
+### Install Node
+
   brew update
   brew install node
   
-Install Grunt and bower (dependencies)
---------------------------------------
+### Install Grunt and bower (dependencies)
+
   npm install -g grunt-cli bower
 
 
-Preview the app
-===============
+## Preview the app
 
   grunt serve
   
 
-Build an optimized, production-ready version
-============================================
+## Build an optimized, production-ready version
 
   grunt
 
