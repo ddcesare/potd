@@ -18,7 +18,7 @@ Pint Of The Day: Simple app to randomly suggest what pint you should go for toda
 ## Preview the app
  
     grunt serve
-    http://localhost:3000/
+    http://localhost:9000/
 
 ## Build an optimized, production-ready version
 
