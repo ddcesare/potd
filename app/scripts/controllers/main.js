@@ -9,14 +9,15 @@ angular.module('potdApp')
       'AngularJS',
       'Karma'
     ];
-
+    $scope.hits = 0;
     $scope.beer = Beer.get({id: 'random'});
-    $scope.reset = function() {
-      $scope.beer = Beer.reset({id: 'random'});
+    $scope.new = function() {
+      $scope.beer = Beer.new({id: 'random', hits: $scope.hits++});
       console.log($scope.beer);
+      console.log($scope.hits);
     };
 
-
     console.log($scope.beer);
+
 
   });

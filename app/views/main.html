@@ -16,4 +16,5 @@
 
 <p>{{beer.data.description}}</p>
 
-<button ng-click="reset()">Nah, give me another one!</button>
+<button ng-show="hits<=3" ng-click="new()">Nah, give me another one!</button>
+<button ng-show="hits>3" disabled>Oi! You had already enough :P</button>

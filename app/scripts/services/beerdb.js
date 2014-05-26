@@ -4,10 +4,11 @@ BeerDB.factory('Beer', ['$resource',
   function($resource){
     return $resource('https://potd-46cea2a6b365.my.apitools.com/beer/:id', {id: '@id' },
       {
-        reset: {
+        new: {
           'method' : 'GET',
           'params' : {
-            'reset' : true
+            'new' : true,
+            'hits' : '@hits'
           }
 
         }
