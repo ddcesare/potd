@@ -27,7 +27,7 @@ Pint Of The Day: Simple app to randomly suggest what pint you should go for toda
     grunt
     
 ## APITools
-   www.apitools.com
+   www.apitools.com (using example@3scale.net account)
 
 ### Middlewares
    * CORS Header
