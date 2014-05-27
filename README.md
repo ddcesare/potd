@@ -10,10 +10,12 @@ Pint Of The Day: Simple app to randomly suggest what pint you should go for toda
     brew update
     brew install node
   
-### Install Grunt and bower (dependencies)
+### Install Grunt and bower
 
     npm install -g grunt-cli bower
 
+### Install dependencies via bower
+    bower install
 
 ## Preview the app
  
