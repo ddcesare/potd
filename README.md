@@ -25,5 +25,16 @@ Pint Of The Day: Simple app to randomly suggest what pint you should go for toda
 ## Build an optimized, production-ready version
 
     grunt
+    
+## APITools
+   www.apitools.com (using example@3scale.net account)
 
+### Middlewares
+   * CORS Header
+   * Change Query Params
+   * Response Caching
+
+## Trying out the app
+  For the app to work, CORS and Change Query Params (API Key) are needed.
+  Then, it's good to make use of Response Caching middleware modified as the [following gist](https://gist.github.com/ddcesare/e99c2f006d2a14438a5d)
 
